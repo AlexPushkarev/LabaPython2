@@ -20,7 +20,7 @@ for char in s:
             j = j + 1
         if s[j - 2] == 'о':
             if s[j - 1] == 'в':
-                s2 = s2 + s1
+                s2 = s2 + ' ' +  s1
                 k = 1
     if k == 1:
         i = j
